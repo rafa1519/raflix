@@ -1,0 +1,101 @@
+body {
+    background-color: #141414;
+    color: #fff;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #E50914;
+}
+
+.chamada {
+    background-image: url('https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072823_960_720.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.chamada-texto {
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.categoria {
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.categoria h2 {
+    font-size: 2em;
+    color: #E50914;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.categoria-videos img {
+    height: 200px;
+    transition: transform 0.3s;
+}
+
+.categoria-videos img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+.social {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #E50914;
+}
+
+footer p {
+    font-size: 14px;
+    color: #737373;
+}
